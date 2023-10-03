@@ -5,7 +5,7 @@ export const dynamic = "force-static";
 function DocsPage() {
   return (
     <section>
-      <div className="container mx-auto">
+      <div className="container mx-auto min-h-[calc(100vh-120px)]">
         <h1 className=" text-lg md:text-xl font-medium">Description</h1>
         <p className=" mt-3 flex flex-col gap-2">
           <span className=" text-gray-500">
