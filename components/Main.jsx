@@ -35,7 +35,7 @@ function Main() {
   };
   return (
     <section>
-      <div className="container mx-auto">
+      <div className="container mx-auto min-h-[calc(100vh-120px)]">
         <Banner />
         <form onSubmit={handleSubmit} className=" mt-5 lg:mt-3">
           <div className=" grid grid-cols-1 md:grid-cols-5 gap-5">
@@ -55,7 +55,7 @@ function Main() {
               <Input
                 value={pName}
                 setValue={setPName}
-                placeholder={"Other Name"}
+                placeholder={"Lover's Name"}
                 className={" p-3 focus:outline-none border rounded-md w-full"}
               />
               <BsBalloonHeart
